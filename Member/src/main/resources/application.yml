@@ -1,0 +1,12 @@
+server:
+  port: 8081
+
+spring:  application:    name: member
+  
+# jpa setting
+  jpa:    hibernate:      ddl-auto: create
+    
+# h2 database
+  h2:    console:      enabled: true
+      path: /h2-console
+  
